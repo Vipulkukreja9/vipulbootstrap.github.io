@@ -1,0 +1,169 @@
+.bgimage{
+background-image:url('images/bgimg.jpg');
+background-size:100% 100%;
+background-attachment:fixed;
+width:100%;
+height:750px;
+}
+.effect li a:hover{
+background-color:red;
+font-weight:bold;
+transition:0.5s;
+color:white;
+
+}
+.title{
+padding-top:250px;
+box-sizing:border-box;
+}
+.title h2{
+font-size:40px;
+}
+.title h1{
+font-size:80px;
+font-weight:bold;
+}
+/* services */
+.services{
+padding:100px 0px 60px;
+height:650px;
+}
+.services h1{
+font-size:50px;
+font-weight:bold;
+}
+.rowset{
+margin:80px 0px !important;	
+}
+.imgset{
+border-radius:500px;
+height:100px;
+width:100px;
+}
+.fa-graduation-cap {
+margin-top:30px;
+}
+.fa-desktop{
+margin-top:30px;
+}
+.fa-shopping-cart{
+margin-top:30px;
+}
+.rowset p{
+padding:10px;
+}
+/* portpolio */
+.portpolio{
+padding:100px 0px 50px;
+height:1350px;
+width:100%;
+}
+.portpolio h1{
+font-size:50px;
+font-weight:bold;
+}
+.card{
+margin-top:40px;
+}
+/* for joom in out effect */
+.inner{
+overflow:hidden;	
+}
+.inner img{
+transition:all 1.5s ease;	
+}
+.inner:hover img{
+transform:scale(1.5); /* using scale function we increase the size of the image	 */
+}
+/* end of for joom in out effect */
+.team{
+padding:100px 0px 60px;
+height:700px;
+width:100%;
+}
+.team h1{
+font-size:50px;
+font-weight:bold;
+}
+.teamset{
+margin-top:50px;
+}
+/* contact */
+.contact{
+padding:100px 0px 60px;
+height:800px;
+width:100%;
+}
+.contact h1{
+font-size:50px;
+font-weight:bold;
+}
+.contactset{
+margin-top:60px !important;
+background:url('images/bgimg.jpg')no-repeat center;
+padding:50px 0;
+}
+.contact-form{
+padding:0 20px;
+}
+.contact-form-text{
+display:block;
+width:100%;
+box-sizing:border-box;
+margin:16px 0;
+border:none;
+padding:10px;
+outline:none;
+background-color:black;
+color:white;
+transition:0.5s;
+}
+.contact-form-text:hover{
+box-shadow:0 0 10px 4px yellow;
+}
+.textarea .contact-form-text{
+resize:none;     /* use for textarea is not enlarge and scroll bar will occur*/
+height:130px;
+}
+.contact-form-btn{
+float:right;
+padding:10px 50px;	
+border-radius:20px;
+background-color:blue;
+color:white;
+font-weight:bold;
+border:none;
+}
+.contact-form-btn:hover{
+background-color:lime;
+}
+/* footer */
+.footer{
+height:50%;
+}
+.footer h6{
+line-height:50px;
+}
+
+/*for responsive*/
+
+
+@media(max-width: 768px){
+.services{
+	height: 1100px;
+}
+.portpolio{
+	height: 3300px;
+}
+.card{
+	margin:32px;
+}
+.team{
+	height: 1300px;
+}
+}
+
+
+
+
+
